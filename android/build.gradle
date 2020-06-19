@@ -58,6 +58,7 @@ android {
 repositories {
     // ref: https://www.baeldung.com/maven-local-repository
     mavenLocal()
+    maven { url 'https://zendesk.jfrog.io/zendesk/repo' }
     maven {
         // All of React Native (JS, Obj-C sources, Android binaries) is installed from npm
         url "$rootDir/../node_modules/react-native/android"
@@ -72,6 +73,7 @@ repositories {
 
 dependencies {
     //noinspection GradleDynamicVersion
+    implementation group: 'com.zendesk', name: 'support', version: '3.0.2'
     implementation 'com.facebook.react:react-native:+'  // From node_modules
 }
 
