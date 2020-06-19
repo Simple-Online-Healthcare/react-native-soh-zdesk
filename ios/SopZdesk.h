@@ -1,5 +1,5 @@
 #import <React/RCTBridgeModule.h>
 
-@interface ReactNativeSopZdesk : NSObject <RCTBridgeModule>
+@interface SopZdesk : NSObject <RCTBridgeModule>
 
 @end

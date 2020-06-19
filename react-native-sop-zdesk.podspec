@@ -3,13 +3,13 @@ require "json"
 package = JSON.parse(File.read(File.join(__dir__, "package.json")))
 
 Pod::Spec.new do |s|
-  s.name         = "SopZdesk"
+  s.name         = "react-native-sop-zdesk"
   s.version      = package["version"]
   s.summary      = package["description"]
   s.description  = <<-DESC
                   react-native-sop-zdesk
                    DESC
-  s.homepage     = "https://github.com/juananime/react-native-sop-zdesk.git"
+  s.homepage     = "https://github.com/juananime/react-native-sop-zdesk"
   # brief license entry:
   s.license      = "MIT"
   # optional - use expanded license entry instead:
@@ -22,6 +22,7 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   s.dependency "React"
+  s.dependency "ZendeskSupportSDK"
   # ...
   # s.dependency "..."
 end
