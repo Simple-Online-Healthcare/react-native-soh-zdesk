@@ -1,4 +1,4 @@
 import { NativeModules } from 'react-native';
 
-const { SopZdesk } = NativeModules;
-export default SopZdesk;
+const { SohZdesk } = NativeModules;
+export default SohZdesk;

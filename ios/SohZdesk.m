@@ -1,11 +1,11 @@
-#import "SopZdesk.h"
+#import "SohZdesk.h"
 @import SupportSDK;
 @import ZendeskCoreSDK;
 @import MessagingSDK;
 #import <ChatSDK/ChatSDK.h>
 #import <ChatProvidersSDK/ChatProvidersSDK.h>
 
-@implementation SopZdesk
+@implementation SohZdesk
 
 RCT_EXPORT_MODULE()
 
@@ -24,7 +24,7 @@ RCT_EXPORT_METHOD(initUser:(NSString *)email name:(NSString *)name phone:(NSStri
      [[ZDKZendesk instance] setIdentity:userIdentity];
 
     ZDKChatAPIConfiguration *chatAPIConfiguration = [[ZDKChatAPIConfiguration alloc] init];
-    chatAPIConfiguration.department = @"SOP";
+    chatAPIConfiguration.department = @"SOH";
     chatAPIConfiguration.visitorInfo = [[ZDKVisitorInfo alloc] initWithName:name email:email phoneNumber:phone];
     ZDKChat.instance.configuration = chatAPIConfiguration;
 }

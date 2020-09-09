@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		47F48FD4249BC12100686E5B /* SopZdesk.m in Sources */ = {isa = PBXBuildFile; fileRef = 47F48FD2249BC12100686E5B /* SopZdesk.m */; };
+		47F48FD4249BC12100686E5B /* SohZdesk.m in Sources */ = {isa = PBXBuildFile; fileRef = 47F48FD2249BC12100686E5B /* SohZdesk.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,9 +23,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		134814201AA4EA6300B7C361 /* libSopZdesk.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSopZdesk.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		47F48FD2249BC12100686E5B /* SopZdesk.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SopZdesk.m; sourceTree = "<group>"; };
-		47F48FD3249BC12100686E5B /* SopZdesk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SopZdesk.h; sourceTree = "<group>"; };
+		134814201AA4EA6300B7C361 /* libSohZdesk.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSohZdesk.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		47F48FD2249BC12100686E5B /* SohZdesk.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SohZdesk.m; sourceTree = "<group>"; };
+		47F48FD3249BC12100686E5B /* SohZdesk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SohZdesk.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,7 +42,7 @@
 		134814211AA4EA7D00B7C361 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				134814201AA4EA6300B7C361 /* libSopZdesk.a */,
+				134814201AA4EA6300B7C361 /* libSohZdesk.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -50,8 +50,8 @@
 		58B511D21A9E6C8500147676 = {
 			isa = PBXGroup;
 			children = (
-				47F48FD3249BC12100686E5B /* SopZdesk.h */,
-				47F48FD2249BC12100686E5B /* SopZdesk.m */,
+				47F48FD3249BC12100686E5B /* SohZdesk.h */,
+				47F48FD2249BC12100686E5B /* SohZdesk.m */,
 				134814211AA4EA7D00B7C361 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -59,9 +59,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		58B511DA1A9E6C8500147676 /* SopZdesk */ = {
+		58B511DA1A9E6C8500147676 /* SohZdesk */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 58B511EF1A9E6C8500147676 /* Build configuration list for PBXNativeTarget "SopZdesk" */;
+			buildConfigurationList = 58B511EF1A9E6C8500147676 /* Build configuration list for PBXNativeTarget "SohZdesk" */;
 			buildPhases = (
 				58B511D71A9E6C8500147676 /* Sources */,
 				58B511D81A9E6C8500147676 /* Frameworks */,
@@ -71,9 +71,9 @@
 			);
 			dependencies = (
 			);
-			name = SopZdesk;
+			name = SohZdesk;
 			productName = RCTDataManager;
-			productReference = 134814201AA4EA6300B7C361 /* libSopZdesk.a */;
+			productReference = 134814201AA4EA6300B7C361 /* libSohZdesk.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -90,7 +90,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 58B511D61A9E6C8500147676 /* Build configuration list for PBXProject "SopZdesk" */;
+			buildConfigurationList = 58B511D61A9E6C8500147676 /* Build configuration list for PBXProject "SohZdesk" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -103,7 +103,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				58B511DA1A9E6C8500147676 /* SopZdesk */,
+				58B511DA1A9E6C8500147676 /* SohZdesk */,
 			);
 		};
 /* End PBXProject section */
@@ -113,7 +113,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				47F48FD4249BC12100686E5B /* SopZdesk.m in Sources */,
+				47F48FD4249BC12100686E5B /* SohZdesk.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,7 +242,7 @@
 				);
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = SopZdesk;
+				PRODUCT_NAME = SohZdesk;
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
@@ -258,7 +258,7 @@
 				);
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = SopZdesk;
+				PRODUCT_NAME = SohZdesk;
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
@@ -266,7 +266,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		58B511D61A9E6C8500147676 /* Build configuration list for PBXProject "SopZdesk" */ = {
+		58B511D61A9E6C8500147676 /* Build configuration list for PBXProject "SohZdesk" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				58B511ED1A9E6C8500147676 /* Debug */,
@@ -275,7 +275,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		58B511EF1A9E6C8500147676 /* Build configuration list for PBXNativeTarget "SopZdesk" */ = {
+		58B511EF1A9E6C8500147676 /* Build configuration list for PBXNativeTarget "SohZdesk" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				58B511F01A9E6C8500147676 /* Debug */,

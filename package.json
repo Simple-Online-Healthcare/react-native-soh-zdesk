@@ -1,23 +1,23 @@
 {
   "name": "react-native-soh-zdesk",
-  "title": "React Native Sop Zdesk",
+  "title": "React Native Soh Zdesk",
   "version": "1.0.9",
-  "description": "React Native Sop Zdesk",
+  "description": "React Native Soh Zdesk",
   "main": "index.js",
   "files": [
     "README.md",
     "android",
     "index.js",
     "ios",
-    "react-native-sop-zdesk.podspec"
+    "react-native-soh-zdesk.podspec"
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/juananime/react-native-sop-zdesk.git",
-    "baseUrl": "https://github.com/juananime/react-native-sop-zdesk.git"
+    "url": "git+https://github.com/simple-online-pharmacy/react-native-soh-zdesk.git",
+    "baseUrl": "https://github.com/simple-online-pharmacy/react-native-soh-zdesk.git"
   },
   "keywords": [
     "react-native"

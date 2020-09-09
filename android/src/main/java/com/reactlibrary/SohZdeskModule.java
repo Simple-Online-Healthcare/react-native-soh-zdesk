@@ -15,18 +15,18 @@ import zendesk.support.guide.HelpCenterActivity;
 import zendesk.support.request.RequestActivity;
 import zendesk.support.requestlist.RequestListActivity;
 
-public class SopZdeskModule extends ReactContextBaseJavaModule {
+public class SohZdeskModule extends ReactContextBaseJavaModule {
 
     private final ReactApplicationContext reactContext;
 
-    public SopZdeskModule(ReactApplicationContext reactContext) {
+    public SohZdeskModule(ReactApplicationContext reactContext) {
         super(reactContext);
         this.reactContext = reactContext;
     }
 
     @Override
     public String getName() {
-        return "SopZdesk";
+        return "SohZdesk";
     }
 
     @ReactMethod
