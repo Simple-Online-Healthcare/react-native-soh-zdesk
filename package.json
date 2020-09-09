@@ -1,7 +1,7 @@
 {
-  "name": "react-native-sop-zdesk",
+  "name": "react-native-soh-zdesk",
   "title": "React Native Sop Zdesk",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "React Native Sop Zdesk",
   "main": "index.js",
   "files": [
