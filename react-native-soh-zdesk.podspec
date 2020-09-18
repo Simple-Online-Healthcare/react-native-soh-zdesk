@@ -17,8 +17,11 @@ Pod::Spec.new do |s|
   s.authors      = { "Your Name" => "yourname@email.com" }
   s.platforms    = { :ios => "9.0" }
   s.source       = { :git => "https://github.com/simple-online-pharmacy/react-native-soh-zdesk.git", :tag => "#{s.version}" }
+  s.source_files = 'ios/*.{h,m}'
 
-  s.source_files = "ios/**/*.{h,c,m,swift}"
+  s.ios.deployment_target = "8.0"
+  s.tvos.deployment_target = "9.0"
+
   s.requires_arc = true
 
   s.dependency "React"

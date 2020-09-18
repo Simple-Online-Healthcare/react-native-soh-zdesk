@@ -1,7 +1,7 @@
 #import "SohZdesk.h"
-@import SupportSDK;
-@import ZendeskCoreSDK;
-@import MessagingSDK;
+#import <SupportSDK/SupportSDK.h>
+#import <ZendeskCoreSDK/ZendeskCoreSDK.h>
+#import <MessagingSDK/MessagingSDK.h>
 #import <ChatSDK/ChatSDK.h>
 #import <ChatProvidersSDK/ChatProvidersSDK.h>
 
@@ -14,10 +14,8 @@ RCT_EXPORT_METHOD(init:(NSString *)appId clientId:(NSString *)clientId zendeskUr
     [ZDKZendesk initializeWithAppId:appId clientId:clientId zendeskUrl:zendeskUrl];
     [ZDKSupport initializeWithZendesk:[ZDKZendesk instance]];
     [ZDKChat initializeWithAccountKey:clientId appId:appId queue:dispatch_get_main_queue()];
-
-
-
 }
+
 RCT_EXPORT_METHOD(initUser:(NSString *)email name:(NSString *)name phone:(NSString *)phone)
 {
     id<ZDKObjCIdentity> userIdentity = [[ZDKObjCAnonymous alloc] initWithName:name email:email];
