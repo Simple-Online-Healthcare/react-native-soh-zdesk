@@ -1,10 +1,10 @@
 #import "SohZdesk.h"
-#import <SupportSDK/SupportSDK.h>
-#import <ZendeskCoreSDK/ZendeskCoreSDK.h>
-#import <MessagingSDK/MessagingSDK.h>
-#import <ChatSDK/ChatSDK.h>
-#import <ChatProvidersSDK/ChatProvidersSDK.h>
-#import <SupportProvidersSDK/SupportProvidersSDK.h>
+@import SupportSDK;
+@import ZendeskCoreSDK;
+@import MessagingSDK;
+@import ChatSDK;
+@import ChatProvidersSDK;
+@import SupportProvidersSDK;
 
 @implementation SohZdesk
 
