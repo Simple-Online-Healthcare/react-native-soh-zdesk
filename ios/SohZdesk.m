@@ -4,6 +4,7 @@
 #import <MessagingSDK/MessagingSDK.h>
 #import <ChatSDK/ChatSDK.h>
 #import <ChatProvidersSDK/ChatProvidersSDK.h>
+#import <SupportProvidersSDK/SupportProvidersSDK.h>
 
 @implementation SohZdesk
 
