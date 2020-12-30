@@ -41,7 +41,7 @@ public class SohZdeskModule extends ReactContextBaseJavaModule {
                 .withEmailIdentifier(email)
                 .build();
         Zendesk.INSTANCE.setIdentity(identity);
-
+        Zendesk.INSTANCE.provider().pushRegistrationProvider().registerWithDeviceIdentifier(result, new ZendeskCallback<String>() {});
     }
     @ReactMethod
     public void openHelpCenter() {
