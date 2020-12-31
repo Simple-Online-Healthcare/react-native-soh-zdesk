@@ -23,7 +23,6 @@ Pod::Spec.new do |s|
 
   s.dependency "React"
   s.dependency "ZendeskSupportSDK", "~> 5.1.1"
-  s.dependency "ZendeskChatSDK", "~> 1.4.7"
-  s.dependency "ZendeskChatProvidersSDK", "~> 2.9.0"
+  s.dependency "ZendeskChatSDK", "~> 2.9.0"
 end
 
