@@ -10,10 +10,7 @@ Pod::Spec.new do |s|
                   react-native-soh-zdesk
                    DESC
   s.homepage     = "https://github.com/simple-online-pharmacy/react-native-soh-zdesk"
-  # brief license entry:
   s.license      = "MIT"
-  # optional - use expanded license entry instead:
-  # s.license    = { :type => "MIT", :file => "LICENSE" }
   s.authors      = { "Your Name" => "yourname@email.com" }
   s.platforms    = { :ios => "9.0" }
   s.source       = { :git => "https://github.com/simple-online-pharmacy/react-native-soh-zdesk.git", :tag => "#{s.version}" }
@@ -25,10 +22,8 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   s.dependency "React"
-  s.dependency "ZendeskSupportSDK"
-  s.dependency "ZendeskChatSDK"
-  s.dependency "ZendeskChatProvidersSDK"
-  # ...
-  # s.dependency "..."
+  s.dependency "ZendeskSupportSDK", "~> 5.1.1"
+  s.dependency "ZendeskChatSDK", "~> 1.4.7"
+  s.dependency "ZendeskChatProvidersSDK", "~> 2.9.0"
 end
 
