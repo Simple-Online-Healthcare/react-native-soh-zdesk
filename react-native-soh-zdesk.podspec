@@ -22,7 +22,13 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   s.dependency "React"
-  s.dependency "ZendeskSupportSDK", "~> 5.3"
-  s.dependency "ZendeskChatSDK", "~> 2.11"
+  s.dependency "ZendeskSupportSDK", "5.1.1"
+  s.dependency "ZendeskSupportProvidersSDK", "5.1.1"
+  s.dependency "ZendeskChatSDK", "2.9.0"
+  s.dependency "ZendeskChatProvidersSDK", "2.9.0"
+  s.dependency "ZendeskMessagingSDK", "3.8.0"
+  s.dependency "ZendeskCommonUISDK", "6.0.0"
+  s.dependency "ZendeskCoreSDK", "2.4.1"
+  s.dependency "ZendeskMessagingAPISDK", "3.8.1"
+  s.dependency "ZendeskSDKConfigurationsSDK", "1.1.7"
 end
-
